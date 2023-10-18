@@ -1,4 +1,4 @@
-rom flask import Flask, render_template, send_file, make_response, request, redirect
+from flask import Flask, render_template, send_file, make_response, request, redirect
 from flask_cors import CORS
 
 app = Flask(__name__)
